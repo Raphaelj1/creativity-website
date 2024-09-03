@@ -85,6 +85,9 @@ nav ul a:hover {
 }
 
 @media screen and (max-width: 720px) {
+	main {
+		padding: 0 24px;
+	}
 	.main-section {
 		flex-direction: column;
 	}
