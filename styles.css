@@ -91,6 +91,9 @@ nav ul a:hover {
 	.main-section {
 		flex-direction: column;
 	}
+	.main-title {
+		font-size: 32px;
+	}
 	.child-section {
 		width: 100%;
 		text-align: center;
