@@ -45,7 +45,8 @@ nav ul a:hover {
 .main-section-image {
 	width: 100%;
 	height: 350px;
-	object-fit: contain;
+	object-fit: cover;
+	border-radius: 8px;
 }
 .main-title {
 	font-size: 48px;
@@ -83,7 +84,34 @@ nav ul a:hover {
 	background-color: transparent;
 	color: #9a03bc;
 }
-
+.group-members {
+	margin: 72px 0;
+	padding-top: 32px;
+	border-top: 1px solid lightgray;
+	text-align: center;
+}
+.member {
+	color: #333;
+}
+.member-about {
+	color: #555;
+}
+.hobbies {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	gap: 12px;
+	font-size: 14px;
+}
+.hobbies li {
+	background-color: #9a03bc;
+	color: white;
+	padding: 6px 10px;
+	border-radius: 16px;
+}
+.trial {
+	order: 1;
+}
 @media screen and (max-width: 720px) {
 	main {
 		padding: 0 24px;
@@ -104,5 +132,8 @@ nav ul a:hover {
 	.main-section-image {
 		object-fit: cover;
 		margin-top: 24px;
+	}
+	.hobbies {
+		justify-content: center;
 	}
 }
