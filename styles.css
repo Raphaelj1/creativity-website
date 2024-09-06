@@ -4,9 +4,15 @@ body {
 		sans-serif;
 }
 main {
-	padding: 0 48px;
+
+}
+.container {
+	padding: 48px;
 	max-width: 900px;
 	margin: 0 auto;
+}
+.bg-color {
+	background-color: #f4c8fe;
 }
 nav {
 	display: flex;
@@ -87,7 +93,6 @@ nav ul a:hover {
 .group-members {
 	margin: 72px 0;
 	padding-top: 32px;
-	border-top: 1px solid lightgray;
 	text-align: center;
 }
 .member {
