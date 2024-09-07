@@ -79,6 +79,7 @@ nav ul a:hover {
 	background-color: #285943;
 	text-wrap: nowrap;
 	cursor: pointer;
+	text-decoration: none;
 }
 .btn:hover {
 	color: #285943;
